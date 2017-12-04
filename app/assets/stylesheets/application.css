@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+.center {
+	text-align: center;
+}
+
+.first {
+	background-image: url('https://cdn.pixabay.com/photo/2017/09/13/04/03/fisherman-2744352_960_720.jpg');
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.button {
+	background: #FF0000;
+	border-radius: 40px;
+	border: 3px solid white;
+	color: white;
+	padding: 5px;
+}
